@@ -1,0 +1,1 @@
+<h1>Blog Index (home) page </h1>
