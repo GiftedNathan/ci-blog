@@ -80,7 +80,6 @@ class Autoload extends AutoloadConfig
      * @phpstan-var list<string>
      */
     public $files = [
-        // 'C:\Users\user\Desktop\ci-blog\Assets\bootswatch\bootstrap.min.css'
     ];
 
     /**
@@ -95,5 +94,5 @@ class Autoload extends AutoloadConfig
      * @var string[]
      * @phpstan-var list<string>
      */
-    public $helpers = ['url', 'URL', 'uri'];
+    public $helpers = ['url'];
 }
