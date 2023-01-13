@@ -39,6 +39,7 @@ $routes->get('/about', 'PageController::about');
 $routes->get('/blog', 'BlogController::index');
 $routes->get('/blog/create', 'BlogController::create');
 $routes->post('/blog/create', 'BlogController::create');
+$routes->get('/blog/manage-posts', 'BlogController::showAllPosts');
 
 /*
  * --------------------------------------------------------------------

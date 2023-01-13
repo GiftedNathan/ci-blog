@@ -20,13 +20,19 @@ class BlogController extends BaseController
                     .view('layouts/footer');
     }
 
+    public function showAllPosts()
+    {
+        $postModel = new PostModel();
+
+        $data['posts'] = $postModel->fetchAllPosts();
+
+        return view('layouts/header')
+                .view('blog/manage-posts', $data)
+                .view('layouts/footer');
+    }
+
     public function create()
     {
-        // return view('layouts/header')
-        //             .view('blog/create')
-        //             .view('layouts/footer');
-
-
         helper('form');
 
         // Checks whether the form is submitted.

@@ -19,5 +19,6 @@
       <a class="nav-link fw-bold py-1 px-3" href="<?php echo base_url('/about')?>">About</a>
       <a class="nav-link fw-bold py-1 px-3" href="<?php echo base_url('/blog')?>">Blog</a>
       <a class="nav-link fw-bold py-1 px-3" href="<?php echo base_url('/blog/create')?>">Create post</a>
+      <a class="nav-link fw-bold py-1 px-3" href="<?php echo base_url('/blog/manage-posts')?>">Manage posts</a>
     </nav>
   </header>
