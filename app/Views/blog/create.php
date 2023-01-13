@@ -22,7 +22,7 @@
     </div>
 
     
-    <button class="w-100 btn btn-lg btn-success" type="submit">Create Post</button>
+    <button class="w-100 btn btn-lg btn-success" type="submit">Create Post!</button>
     
   </form>
 </main>
