@@ -7,11 +7,15 @@ class PageController extends BaseController
     public function index()
     {
         helper('url');
-        return view('pages/index');
+        return view('layouts/header')
+            .view('pages/index')
+            .view('layouts/footer');
     }
 
     public function about()
     {
-        return view('pages/about');
+        return view('layouts/header')
+            .view('pages/about')
+            .view('layouts/footer');
     }
 }
